@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid blue;
+    margin: 5px 5px;
+    padding: 2px 2px;
+    background-color: bisque;
+
+}
+
+nav {
+    display: inline-flex;
+    border: 2px dashed;
+    margin: 5px 4px;
+    padding: 3px 3px;
+    background-color: blueviolet;
+
+}
+
+nav ul li {
+    display: inline-flex;
+    justify-content: flex-end;
+    border-bottom: 1px solid black;
+    margin: 2px;
+    padding: 3px;
+    color: azure;
+}
+
+main {
+    height: 1000px;
+
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    border: 3px dashed;
+    margin: 2px 3px;
+    padding: 2px 2px;
+    background-color: aqua;
+
+}
+
+section p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    text-decoration: underline;
+
+
+
+}
+
+footer {
+    display: inline-flex;
+    flex-direction: row;
+    margin: 2px;
+    padding: 2px;
+    border: 2px solid;
+    background-color: azure;
+
+}
